@@ -25,6 +25,14 @@
             <artifactId>redisson</artifactId>
             <version>3.11.4</version>
         </dependency>
+        <dependency>
+            <groupId>com.woople</groupId>
+            <artifactId>sedis</artifactId>
+            <version>0.1-bundle</version>
+            <scope>system</scope>
+            <systemPath>/Users/SandBox/sedis/target/sedis-0.1-bundle.jar</systemPath>
+        </dependency>
+
     </dependencies>
     <build>
         <defaultGoal>package</defaultGoal>
